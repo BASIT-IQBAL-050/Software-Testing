@@ -12,7 +12,7 @@ public class BankAccount {
          amount = startingAmount; 
     }
 
-    public void deposit(double depositAmount) {
+    public void deposit(int depositAmount) {
         balance += depositAmount; 
     }
 

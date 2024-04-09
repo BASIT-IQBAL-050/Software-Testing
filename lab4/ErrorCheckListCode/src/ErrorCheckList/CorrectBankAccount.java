@@ -2,11 +2,10 @@ package ErrorCheckList;
 
 public class CorrectBankAccount {
     private String accountHolderName; 
-    private double accountBalance;   
-    private int ammount;
+    private double accountBalance; 
     
-    public CorrectBankAccount(int startingAmount){
-        ammount = startingAmount;
+    public CorrectBankAccount(double startingAmount){
+        accountBalance = startingAmount;
     }
     
     public String getAccountHolderName() {

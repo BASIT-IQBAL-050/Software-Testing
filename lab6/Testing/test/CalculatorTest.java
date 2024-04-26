@@ -48,8 +48,8 @@ public class CalculatorTest {
         float a =(float) 1.2;
         float b = (float) 1.3;
         Calculator c = new Calculator();
-        float expectedResult = (float) 2.5;
-        int result = c.add('b', 'c');
+        int expectedResult =  2;
+        int result = c.add(2, 1);
         assertEquals(expectedResult,result);
     }
     

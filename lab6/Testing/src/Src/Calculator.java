@@ -1,27 +1,34 @@
 package Src;
 
-
 public class Calculator {
-    int a,b;
-    
-    public int getA(){
-        return a;
+    // Information Expert Principle
+    // The Calculator class holds the necessary information and operations for calculations
+
+    // Creator Principle
+    // Calculator class is responsible for creating instances of itself
+    public Calculator() {
     }
-    public void setA(int a){
-        this.a = a;
+
+    // Addition operation
+    public int addition(int a, int b) {
+        return a + b;
     }
-    
-    public int getB(){
-        return b;
+
+    // Subtraction operation
+    public int subtract(int a, int b) {
+        return a - b;
     }
-    public void setB(int b){
-        this.b = b;
+
+    // Multiplication operation
+    public int multiply(int a, int b) {
+        return a * b;
     }
-    
-    
-    public int add(int a, int b){
-        return a+b;
+
+    // Division operation
+    public double divide(int a, int b) {
+        if (b == 0) {
+            throw new ArithmeticException("Division by zero is not allowed");
+        }
+        return (double) a / b;
     }
-    
-    
 }

@@ -1,6 +1,6 @@
 public class PalindromeCheck {
     public static void main(String[] args){
-        String str= "ab";
+        String str= "a";
         boolean isPlaindrome = isPlaindrome(str);
         System.out.println("Is the string a plaindrome ? "+ isPlaindrome);
     }
